@@ -8,7 +8,7 @@ const port = process.env.PORT
 
 const app = express();
 app.use(bodyParser.json());
-app.use(express.static(__dirname));
+app.use( express.static( `${__dirname}/../build` ) );
 
 app.listen(port, () => {
     console.log(`Ship docked at port: ${port}`)
