@@ -7,10 +7,33 @@
 }
 
 .navImg {
-  height: 5vh;
+  width: 25%;
 }
 
 .bannerImg {
   width: 75%;
+}
+
+.productsPage {
+  background-color: black;
+}
+
+.productsContainer {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.navIcon {
+  justify-content: space-between;
+}
+
+.productImg {
+  width: 250px;
+}
+
+.item {
   text-align: center;
 }
